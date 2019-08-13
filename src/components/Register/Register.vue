@@ -154,12 +154,12 @@
           <div class="column is-2-desktop is-10-mobile">
             <div class="control" :class="((error.errorBloodPressue) ? 'has-error' : null)">
               <input
-                class="input"
+                class="input "
                 type="text"
                 v-model="bloodPressure"
                 @blur="validateBloodPressure"
                 @keyup="validateBloodPressure"
-                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                oninput="this.value = this.value.replace(/[^0-9./]/g, '').replace(/(\..*)\./g, '$1');"
               />
               <label class="label is-large">Blood Pressure</label>
               <i class="bar"></i>
