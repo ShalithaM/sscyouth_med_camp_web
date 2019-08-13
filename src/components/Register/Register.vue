@@ -70,7 +70,7 @@
           <div class="column is-3-desktop is-10-mobile">
             <div class="control" :class="((error.errorDOB) ? 'has-error' : null)">
               <input
-                class="input is-large"
+                class="input"
                 type="date"
                 v-model="DOB"
                 @blur="validateDOB"
@@ -86,7 +86,7 @@
           <div class="column is-2-desktop is-10-mobile">
             <div class="control" :class="((error.errorAge) ? 'has-error' : null)">
               <input
-                class="input is-large"
+                class="input"
                 type="text"
                 v-model="age"
                 @blur="validateAge"
@@ -103,7 +103,7 @@
           <div class="column is-2-desktop is-10-mobile">
             <div class="control" :class="((error.errorHeight) ? 'has-error' : null)">
               <input
-                class="input is-large"
+                class="input"
                 type="text"
                 v-model="height"
                 @blur="validateHeight"
@@ -120,7 +120,7 @@
           <div class="column is-2-desktop is-10-mobile">
             <div class="control" :class="((error.errorWeight) ? 'has-error' : null)">
               <input
-                class="input is-large"
+                class="input"
                 type="text"
                 v-model="weight"
                 @blur="validateWeight"
@@ -137,7 +137,7 @@
           <div class="column is-2-desktop is-10-mobile">
             <div class="control" :class="((error.errorBMI) ? 'has-error' : null)">
               <input
-                class="input is-large"
+                class="input "
                 type="text"
                 v-model="BMI"
                 @blur="validateBMI"
@@ -154,7 +154,7 @@
           <div class="column is-2-desktop is-10-mobile">
             <div class="control" :class="((error.errorBloodPressue) ? 'has-error' : null)">
               <input
-                class="input is-large"
+                class="input"
                 type="text"
                 v-model="bloodPressure"
                 @blur="validateBloodPressure"
